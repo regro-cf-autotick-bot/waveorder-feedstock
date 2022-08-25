@@ -144,4 +144,6 @@ Feedstock Maintainers
 =====================
 
 * [@goanpeca](https://github.com/goanpeca/)
+* [@mattersoflight](https://github.com/mattersoflight/)
+* [@talonchandler](https://github.com/talonchandler/)
 
