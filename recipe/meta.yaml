@@ -43,7 +43,7 @@ about:
   home: https://github.com/mehta-lab/waveorder/
   summary: wave optical simulations and deconvolution of optical properties
   license: BSD-3-Clause
-  license_file: LICENSE.txt
+  license_file: LICENSE
 
 extra:
   recipe-maintainers:
