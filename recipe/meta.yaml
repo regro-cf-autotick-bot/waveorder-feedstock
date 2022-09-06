@@ -1,5 +1,5 @@
 {% set name = "waveorder" %}
-{% set version = "1.0.0b0" %}
+{% set version = "1.0.0rc0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,9 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/waveorder-{{ version }}.tar.gz
-  sha256: 2bb0c2d94eb820f6dc386f65b9b1064020652b9f63dfce06fba952fe641bba55
-  patches:
-    - setup.patch
+  sha256: 14c6275e9f16d306adf08d49bfc51b9fd65c8a8177bca2af3c7c45bde146d6a6
 
 build:
   noarch: python
@@ -20,16 +18,18 @@ requirements:
   host:
     - pip
     - python >=3.7
+    - setuptools-scm
   run:
     - ipywidgets >=7.5.1
     - matplotlib-base >=3.1.1
     - natsort >=7.1.1
     - numpy >=1.17.4
     - opencv >=3.4.1
+    - pycromanager >=0.13.2
     - python >=3.7
     - pywavelets >=1.1.1
     - scipy >=1.3.0
-    - tifffile >=2020.11.26
+    - tifffile >=2021.11.2
     - zarr >=2.6.1
 
 test:
@@ -44,8 +44,8 @@ test:
 about:
   home: https://github.com/mehta-lab/waveorder/
   summary: wave optical simulations and deconvolution of optical properties
-  license: LicenseRef-Chan-Zuckerberg-Biohub
-  license_file: LICENSE.txt
+  license: BSD-3-Clause
+  license_file: LICENSE
 
 extra:
   recipe-maintainers:
