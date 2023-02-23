@@ -3,7 +3,7 @@ About waveorder
 
 Home: https://github.com/mehta-lab/waveorder/
 
-Package license: LicenseRef-Chan-Zuckerberg-Biohub
+Package license: BSD-3-Clause
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/waveorder-feedstock/blob/main/LICENSE.txt)
 
