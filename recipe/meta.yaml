@@ -1,5 +1,5 @@
 {% set name = "waveorder" %}
-{% set version = "1.0.0rc0" %}
+{% set version = "1.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/waveorder-{{ version }}.tar.gz
-  sha256: 14c6275e9f16d306adf08d49bfc51b9fd65c8a8177bca2af3c7c45bde146d6a6
+  sha256: 23d8428b59339049f13ac13d9f2f705ffab193a718d8d5cf302708ae58e6595f
 
 build:
   noarch: python
