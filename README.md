@@ -1,11 +1,11 @@
-About waveorder
-===============
+About waveorder-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/waveorder-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/mehta-lab/waveorder/
 
-Package license: LicenseRef-Chan-Zuckerberg-Biohub
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/waveorder-feedstock/blob/main/LICENSE.txt)
+Package license: BSD-3-Clause
 
 Summary: wave optical simulations and deconvolution of optical properties
 
